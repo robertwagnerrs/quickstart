@@ -1,0 +1,5 @@
+SERVER=107.22.65.150
+KEY=/home/user/ec2-keys-fdrescher/default-EC2-US.pem
+SOURCE=/home/user/workspace/quickstart
+DEST=/var/cache/rightscale/cookbooks/3466341cb692139718b2fdd998dbddf959a965db
+rsync -vrPtz -e "ssh -i $KEY -l root" $SOURCE $SERVER:$DEST && ssh -i $KEY root@$SERVER "rs_run_recipe -n \"apache-quickstart::default\";tailf /var/log/messages"
