@@ -13,7 +13,7 @@ service "httpd" do
   action :start
 end
 
-template "var/www/html/index.html"
+template "var/www/html/index.html" do
   source "index.html.erb"
   user "root"
   group "root"
