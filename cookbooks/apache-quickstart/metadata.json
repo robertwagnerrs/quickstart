@@ -7,6 +7,19 @@
   "replacing": {
   },
   "attributes": {
+    "quickstart/name": {
+      "required": "required",
+      "calculated": false,
+      "choice": [
+
+      ],
+      "type": "string",
+      "recipes": [
+        "apache-quickstart::default"
+      ],
+      "display_name": "Robert",
+      "description": "Robert"
+    }
   },
   "maintainer_email": "YOUR_EMAIL",
   "groupings": {
