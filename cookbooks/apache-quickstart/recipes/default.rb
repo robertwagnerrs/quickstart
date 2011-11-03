@@ -8,3 +8,14 @@
 #
 
 package "httpd"
+
+service "httpd" do
+  action :start
+end
+
+template "var/www/html/index.html"
+  source "index.html.erb"
+  user root
+  group root
+  mode 0755
+end
