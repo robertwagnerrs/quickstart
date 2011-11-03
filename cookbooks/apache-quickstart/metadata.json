@@ -17,8 +17,8 @@
       "recipes": [
         "apache-quickstart::default"
       ],
-      "display_name": "Robert",
-      "description": "Robert"
+      "display_name": "A name",
+      "description": "Name to display on the page."
     }
   },
   "maintainer_email": "YOUR_EMAIL",
