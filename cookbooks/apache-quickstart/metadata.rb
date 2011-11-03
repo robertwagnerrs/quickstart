@@ -8,7 +8,7 @@ version          "0.0.1"
 recipe "apache-quickstart::default", "Install Apache"
 
 attribute "quickstart/name",
-:display_name => "Robert",
-:description => "Robert",
+:display_name => "A name",
+:description => "Name to display on the page.",
 :required => true,
 :recipes => [ "apache-quickstart::default" ]
