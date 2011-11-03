@@ -1,0 +1,30 @@
+{
+  "long_description": "= DESCRIPTION:\n\n= REQUIREMENTS:\n\n= ATTRIBUTES:\n\n= USAGE:\n\n",
+  "providing": {
+  },
+  "description": "Installs/Configures apache-quickstart",
+  "maintainer": "YOUR_COMPANY_NAME",
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "maintainer_email": "YOUR_EMAIL",
+  "groupings": {
+  },
+  "dependencies": {
+  },
+  "recommendations": {
+  },
+  "recipes": {
+    "apache-quickstart::default": "Install Apache"
+  },
+  "platforms": {
+  },
+  "version": "0.0.1",
+  "suggestions": {
+  },
+  "license": "All rights reserved",
+  "name": "apache-quickstart",
+  "conflicting": {
+  }
+}
